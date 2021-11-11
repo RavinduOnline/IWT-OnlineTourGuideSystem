@@ -1,0 +1,199 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="CSS/styleSheet1.css"/>
+<script src="js/myScript.js"></script>
+
+<title>Wildlife</title>
+	<style>
+	#main-header{
+	background-image:url("Images/hd.jpg");
+	width:100%;
+	top:0;
+	left:0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	</style>
+
+</head>
+<body>
+  <div style="background-image:url('Images/q.jpg');">
+	<header id="main-header">
+			<div class="container">
+<!--logo-->
+	<center>
+		<img src="Images/Logo.png" class="logo"> 
+		<h4 class="h"><b>The Online Tour Guide</b></h4>
+	</center>
+	
+<!--Navigation bar-->	
+	<ul class="navi">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="#">Packages and Bookings</a></li>
+		<li><a href="#">Explore</a></li>
+		<li><a href="#">Contact Us</a></li>
+		<li><a href="register.html">Login</a></li>
+	</ul>
+	
+			</div>
+	</header>
+
+<table class="desing"  width="100%">	
+<tr>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="Images/w2.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/w3.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/w5.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/w9.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/w7.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <img src="Images/w8.jpg" style="width:100%">
+</div>
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+</tr>
+</table>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<table class="desing2" bgcolor="black" width="100%">
+<tr style="color:black;">
+<th style="font-family:Geneva"><h1>W i l d  L i f e</h1></th></tr>
+</table>
+
+<table class="table0">
+<tr>
+<center>
+<td>
+<h3>Sri Lanka is a small but facinating country filled with rich bio-diversity.
+We will help your to explore and uncover the nature of Sri Lanka.
+Our wild life tour package will cover three locations (Yala, Willpattu, Udawalawa) to give
+ you the best wild life experience in SriLanka.</h3></center>
+</td>
+</tr>
+</table>
+
+<table class="table1">
+<tr>
+<td><center><a href="https://www.google.com/maps/place/Wilpattu+National+Park/@7.4420169,80.0791249,7.88z/data=!4m7!3m6!1s0x3afdac7787e4bc27:0xcdd9a0715dad187c!8m2!3d8.4563723!4d80.0476383!9m1!1b1?hl=en">
+<img class="columnx" src="Images/m4.png" width="500" height="400"></td></center>
+<td><center><h2>Willpattu National Park</h2><br></center>
+<h3>The largest national park which located in the northwest coast in sri lanka,
+accommodating a large variety of tropical wildlife found in the island. 
+The location approximately 188 km away from the commercial capital, Colombo. 
+This is an excellent national park for nature lovers. </h3>
+</td>
+</tr>
+</table>
+
+<table class="table2">
+<tr>
+<td><center><h2>Yala National Park</h2><br></center>
+<h3>Yala National Park is the most visited and second largest national park in Sri Lanka.
+Yala is famous for large number of Elephants, 
+Leopards, Spotted Deer, Sambhur, Crocodiles,
+Wild Boar, Wild Buffalo, and many other animals.Also Yala's appeal that the main tracks and viewing spots can be crowded.
+</h3>
+</td>
+<td><center><a href="https://www.google.com/maps?q=yala+national+park&source=lmns&bih=844&biw=1707&rlz=1C1CHBF_enLK798LK798&hl=en&sa=X&ved=2ahUKEwjghJu494nsAhXJFysKHe-LArgQ_AUoAXoECAEQAQ">
+<img class="columnx" src="Images/m3.png" width="500" height="400"></td></center>
+</tr>
+</table>
+
+<table class="table3">
+<tr>
+<td><center><a href="https://www.google.com/maps/place/Udawalawe+National+Park+Safari/@6.1961285,80.70304,10.43z/data=!4m5!3m4!1s0x3ae408ff88887e79:0xaf12e79ffbd980d7!8m2!3d6.4381426!4d80.8886114?hl=en">
+<img class="columnx" src="Images/m2.png" width="500" height="400"></td></center>
+<td><center><h2>Udawalawa</h2><br></center>
+<h3>Do you want to spot elephants in the wild? Then Udawalawe National Park is the best place in Sri Lanka.
+One of scenic national park in Sri Lanka, is located in Udawalawe.
+Massive land around 30 000 hectares, this park is home to so many different bird species,Crocodiles,Spotted deers,Lizards,Peacocks,Leopards,Buffalos
+and many more animals.</h3>
+</td>
+</tr>
+</table>
+
+<table class="table0">
+<tr>
+<center>
+<td>
+<h3><br>Our wild life tour package will cover the whole journey withing 5 days.
+Transport services, saftey and security are also included.
+A suitable tourist can be selected with the package.</h3></center>
+</td>
+</tr>
+<tr>
+<td><center><button type="button" class="b1" href="#">Get this Package</button></td></center>
+</tr>
+<tr><td><br>
+</td>
+</tr>
+<tr><td><br>
+</td>
+</tr>
+</table>
+
+<footer>
+<table class="desing"  width="100%">
+	<tr style="border:0px">
+		<th style="font-family:Geneva"><h3 style="font-family:sans-serif; font-size:20px;">Follow us on</th></h3>
+	</tr>
+	<tr> <th>
+    <a href="https://www.facebook.com/"><img src="Images/ICONS/FB2.png" width=50" height="50"></a>
+	<a href="https://www.twitter.com/"><img src="Images/ICONS/Twitter2.png" width=50" height="50"></a>
+	<a href="https://www.instagram.com/"><img src="Images/ICONS/Insta2.png" width=50" height="50"></a>
+	<a href="https://www.googleplus.com/"><img src="Images/ICONS/G+2.png" width=50" height="50"></a>
+	<br>
+	<a href="reviews.html"><img src="Images/ICONS/rw2.png" width="170" height="60"></a>
+<br><center><h3 style="font-family:sans-serif"> Terms and conditions</center></h3>
+<p style="font-size:13px; font-family:Arial;">The following are terms of a legal agreement butween you and the Sri Lanka Tourism Promotion Bunau. By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agee to be bound by these terms and to comply with all applicable laws and regulationsf you do not agree to these terms, please do not use this Website. SLTPB may, without notice to you, at any time rvse these Tens of Use and any other information contained in this Website by updating this posting SLUPB may also make improvemets or changes in the products, survices, or programs described in this sile at any time without notice.</p>
+<center><h4 style="font-family:sans-serif">@ 2020 ALL Rights Rerved by "Travel Net"</a></h4></center> 
+	
+</th>
+</table>
+</footer>
+</body>
+</html>

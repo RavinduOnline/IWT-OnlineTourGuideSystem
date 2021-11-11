@@ -1,0 +1,201 @@
+/*------------Header--------------*/
+#main-header{
+	background-image:url("../Images/hd.jpg");
+	width:100%;
+	top:0;
+	left:0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*-------------Logo-------------*/
+.logo{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+	
+}	
+
+li a:hover {
+  background-color:#11526A;
+}
+
+.navi{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	background-color:#333;
+	opacity:0.9;
+	font-family:Geneva;
+	overflow: auto;
+}
+.navi li{
+    display:inline;
+}
+.navi a{
+    display:inline-block;
+    padding:5px;
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 20%;
+	text-align: center;
+}
+/*drop down*/
+.dropbtn {
+  background-color: #009999;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  /*display:inline;*/
+  font-size:18px;
+  padding: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+body {
+    background: #f6f57;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+	background-image:url("../Images/Login bg.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+
+/*-------------Form-------------*/
+
+.form-box {
+	background-color:white;
+	opacity:90%;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: black;
+    padding: 0px 20px 0px 20px;
+	border-radius:50px;
+}
+.form-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "RNS Camelia";
+    text-transform: capitalize;
+	
+}
+
+.text-fild {
+    width:100%;
+    height:50px;
+	margin-bottom:20px;
+	padding:10px;
+	border:0;
+	box-shadow:0 0 15px 4px #DBDBE0;
+	border-radius:10px;
+}
+.FPassword {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 12px;
+    float: right;
+}
+
+
+.FPassword:hover {
+    color: red;
+}
+
+.login-but {
+    width: 50%;
+    height: 50px;
+    background-color: #11526A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+	border-radius:50px;
+}
+
+.login-but:hover{
+	background-color: green;
+}
+
+.Signin {
+    text-decoration: none;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.Signin:hover {
+    color: red;
+}
+
+.sub-login1{
+	margin-right:20px;
+}
+
+
+/*--------------footer------------*/
+.desing{
+	opacity: 0.7;
+	color:white;
+	background-color:#11526A;
+	border-color:#11526A;
+	padding:5px;
+}
+
+.form{
+	color:black;
+	opacity: 0.78;
+}
+
+*{
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+.column1{
+	float: left;
+	width: 33.3%;
+	padding-left:10px;
+}
+
+.row{
+	content:"";
+	clear: both;
+	display:table;
+	position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity:0.7;
+}
+

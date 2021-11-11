@@ -1,0 +1,172 @@
+body {
+    
+	font-family: Helvetica, sans-serif;
+}
+
+
+/*------------Header--------------*/
+#main-header{
+	background-image:url("../Images/hd.jpg");
+	width:100%;
+	top:0;
+	left:0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*-------------Logo-------------*/
+.logo{
+	
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+	
+}	
+
+li a:hover {
+  background-color:#11526A;
+}
+
+.navi{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	background-color:#333;
+	opacity:0.9;
+	font-family:Geneva;
+	overflow: auto;
+}
+.navi li{
+    display:inline;
+}
+.navi a{
+    display:inline-block;
+    padding:10px;
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 20%;
+	text-align: center;
+}
+/*drop down*/
+.dropbtn {
+  background-color: #009999;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  /*display:inline;*/
+  font-size:18px;
+  padding: 20px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/*-------------BG Color-------------*/
+.box{
+	background-color:#6E7C7C;
+}
+
+/*-------------Slide Show-------------*/
+
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 5000px;
+  margin: 0px;
+}
+
+.slide-wrapper {
+ 
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+	overflow: hidden;
+  float: left;
+  height: auto;
+  width: auto;
+}
+
+
+
+/*-------------Description & Title-------------*/
+
+.title{
+	background-color:black;
+	color:white;
+	width:auto;
+	height:35px;
+	text-align:left;
+	padding-left:10px;
+	padding-top:5px;
+}
+
+
+
+.site-description h3{
+	text-align:left;
+	color:white;
+}
+
+.description{
+	color:white;
+	text-align:justify;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+/*--------------footer------------*/
+.desing{
+	opacity: 0.7;
+	color:white;
+	background-color:#11526A;
+	border-color:#11526A;
+	padding:5px;
+}
+
+.form{
+	color:black;
+	opacity: 0.78;
+}
+
+*{
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+.column1{
+	float: left;
+	width: 33.3%;
+	padding-left:10px;
+}
+
+.row{
+	content:"";
+	clear: both;
+	display:table;
+	position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity:0.7;
+}

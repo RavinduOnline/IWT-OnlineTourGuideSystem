@@ -1,0 +1,192 @@
+
+	
+.h{
+	font-family:Brush Script MT;
+	font-size:43px;
+	font-align:center;
+}
+	
+	/* hover*/
+li a:hover {
+  background-color:#11526A;
+}
+
+.B1:hover{
+  color: white;
+  background:#ff4653 ;
+}
+.B2:disabled {
+  color: white;
+  background:#1aa3ff ;
+}
+
+/**/
+.navi{
+
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+	background-color:#333;
+	opacity:0.9;
+	font-family:Geneva;
+	overflow: auto;
+}
+.navi li{
+    display:inline;
+}
+.navi a{
+    display:inline-block;
+    padding:10px;
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 20%;
+	text-align: center;
+}
+
+.payop {
+  border-radius: 15px;
+  background-color:#9fdfdf;
+  padding: 20px;
+  font-family:'Lucida Casual', 'Comic Sans MS';
+  opacity: 0.9;
+}
+
+
+
+.desing{
+	opacity: 0.88;
+	color:white;
+	background-color:#11526A;
+	border-color:gray;
+}
+
+.desing2{
+	opacity: 0.9;
+	color:black;
+	background-color:gray;
+	border-color:gray
+}
+
+.form{
+	color:black;
+	opacity: 0.78;
+}
+
+/*text box*/
+input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=text2] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+*{
+	box-sizing: border-box;
+}
+.column{
+	float: left;
+	width: 20%;
+	padding: 5px;
+}
+.column1{
+	float: left;
+	width: 33.3%;
+	padding-left:10px;
+}
+
+.row{
+	content:"";
+	clear: both;
+	display:table;
+	position: relative;
+    font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity:0.7;
+}
+
+/* drop*/
+.styled select {
+  background: #1aa3ff;
+  width: 800px;
+  font-size: 13px;
+  border: 1px solid #CCC;
+  height: 34px;
+  color:white;
+}
+.styled {
+  margin: 50px;
+  width: 120px;
+  height: 34px;
+  border: 1px solid #111;
+  border-radius: 3px;
+  overflow: hidden;
+
+}
+
+/**/
+
+
+/*Button*/
+.buttons{
+	margin-left:50px;
+	width:10%;
+	font-size: 16px;
+	}
+
+.B1 {
+  background-color:#1aa3ff ;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13x;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.B2 {
+  background-color:#ff4653 ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/**/
+	
